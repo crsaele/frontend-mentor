@@ -1,0 +1,41 @@
+/* Reset margin and padding and set the box sizing to border box */
+* {
+    box-sizing: border-box;
+    margin: 0;    
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Body is the container that holds all the page */
+body {
+   background: hsl(212, 45%, 89%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+p {
+    margin-top: 20px;
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 15px;
+}
+img {
+    display: block;
+    border-radius: 8px;
+    margin: 15px;
+    height: 280px;
+
+}
+/* Our card container */
+.card-container {
+    background: hsl(0, 0%, 100%);
+    margin-top: 200px;
+    text-align: center;
+    height: 495px;
+    width: 315px;
+    border-radius: 18px;
+}
+/* Card's description */
+.card-name {
+    padding: 18px;
+}
